@@ -5,33 +5,41 @@ namespace SimulateurMeteo
     class Program
     {
 
-        public enum Meteo{
-            Soleil = 0,
-            Nuage,
-            Pluie,
-            Orage
-        }
 
-        public Meteo MeteoActuel = 0;
+
+
         static void Main(string[] args)
         {
+            Meteo m = new Meteo();
+            Meteo.changementMeteoDel delegateActionAuChangementMeteo = ActionAuChangementMeteo;
+            m.ChangementMeteo += delegateActionAuChangementMeteo;
+
+
             Console.WriteLine("Combien de mesures doivent être générées?");
             ConsoleKeyInfo key1 = Console.ReadKey();
-            if (!char.IsDigit(Convert.ToChar(key1)))
+            if (!char.IsDigit(Convert.ToChar(key1.Key)))
             {
                 Console.WriteLine("Not a digit");
                 return;
             }
-            int[] arrayRnd = new int[Convert.ToInt16(key1)];
+            int intKey = int.Parse(key1.KeyChar.ToString());
+            int[] arrayRnd = new int[intKey];
             Random rnd = new Random();
             for (int i = 0; i < arrayRnd.Length; i++)
             {
-                arrayRnd[i]=rnd.Next(0, 100);
+                arrayRnd[i] = rnd.Next(0, 100);
+                Console.WriteLine("New rnd : " + arrayRnd[i]);
+                m.CheckWeather(arrayRnd[i]);
+                //for (int j = 0; j < 10000; j++);
             }
             Console.WriteLine(" Press any key to exit ...");
             Console.ReadKey();
         }
+        public static  void ActionAuChangementMeteo(Meteo.MeteoEnum newMeteo)
+        {
+            Console.WriteLine("The new meteo is :" +newMeteo);
+        }
 
-        //public static checkWeather(Meteo)
+
     }
 }
