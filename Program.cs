@@ -4,6 +4,15 @@ namespace SimulateurMeteo
 {
     class Program
     {
+
+        public enum Meteo{
+            Soleil = 0,
+            Nuage,
+            Pluie,
+            Orage
+        }
+
+        public Meteo MeteoActuel = 0;
         static void Main(string[] args)
         {
             Console.WriteLine("Combien de mesures doivent être générées?");
@@ -23,6 +32,6 @@ namespace SimulateurMeteo
             Console.ReadKey();
         }
 
-        
+        //public static checkWeather(Meteo)
     }
 }
