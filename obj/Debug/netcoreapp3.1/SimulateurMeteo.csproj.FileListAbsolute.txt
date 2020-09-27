@@ -1,0 +1,13 @@
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\obj\Debug\netcoreapp3.1\SimulateurMeteo.csprojAssemblyReference.cache
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\obj\Debug\netcoreapp3.1\SimulateurMeteo.AssemblyInfoInputs.cache
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\obj\Debug\netcoreapp3.1\SimulateurMeteo.AssemblyInfo.cs
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\obj\Debug\netcoreapp3.1\SimulateurMeteo.csproj.CoreCompileInputs.cache
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\bin\Debug\netcoreapp3.1\SimulateurMeteo.exe
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\bin\Debug\netcoreapp3.1\SimulateurMeteo.deps.json
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\bin\Debug\netcoreapp3.1\SimulateurMeteo.runtimeconfig.json
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\bin\Debug\netcoreapp3.1\SimulateurMeteo.runtimeconfig.dev.json
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\bin\Debug\netcoreapp3.1\SimulateurMeteo.dll
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\bin\Debug\netcoreapp3.1\SimulateurMeteo.pdb
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\obj\Debug\netcoreapp3.1\SimulateurMeteo.dll
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\obj\Debug\netcoreapp3.1\SimulateurMeteo.pdb
+C:\Users\Thibaut Leyter\Documents\Code\C#\programmez_en_orienté_objet_avec_C#\SimulateurMeteo\obj\Debug\netcoreapp3.1\SimulateurMeteo.genruntimeconfig.cache
